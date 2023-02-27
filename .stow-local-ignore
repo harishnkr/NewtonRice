@@ -1,0 +1,6 @@
+\.git
+wallpaper
+fonts
+lightdm
+^/README.*
+^/LICENSE.*
