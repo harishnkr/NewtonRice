@@ -8,7 +8,7 @@ action=$(yad --width 300 --entry --undecorated --title "System Logout" \
     "Shutdown" "Reboot" "Logout" "Suspend" )
 
 ret=$?
-[[ $ret -eq 1 ]] && exit 0
+[ $ret -eq 1 ] && exit 0
 
 
 case $action in
@@ -19,5 +19,5 @@ case $action in
     *) exit 1 ;;    
 esac
 
-eval exec $cmd
+eval exec "$cmd"
 
