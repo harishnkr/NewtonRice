@@ -1,5 +1,5 @@
 # Newton
-Simple and efficient Linux Rice on BSPWM with modified Rose Pine Moon theme.
+Simple and efficient Linux Rice on BSPWM with Rose Pine Moon theme.
 
 ![1](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/1.png)
 ![2](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/2.png)
@@ -100,9 +100,18 @@ Use a GTK theming application such as LXAppearance to preview and apply the sett
 
 Install the [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor#how-to-get-it) theme followed by applying it using LXAppearance.
 
+#### Login Manager
+
+:warning: Make sure you know what you are doing! Check out [this](https://wiki.archlinux.org/title/LightDM) for more information. The system may break if you do it wrong.
+
+Copy the files from the lightdm folder and copy it to ```/etc/lightdm``` folder. You may require sudo privileges to copy the files. 
 
 
-talk about what all to change
-make changes
-license
-used custom yad for powermenu
+
+## Feedback
+
+Suggestions and Improvements are welcome.\
+If you have any issues with respect to using this repo to customize your desktop, raise a new issue [here](https://github.com/harishnkr/NewtonRice/issues/new).\
+Pull requests are also accepted, provided the enhancements keep the project as minimal as possible.
+
+
