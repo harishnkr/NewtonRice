@@ -10,5 +10,5 @@ liberapay: harishnkr
 issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
 lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
-custom: 
-buymeacoffee: harishnkr
+custom: ['https://www.buymeacoffee.com/harishnkr']
+
