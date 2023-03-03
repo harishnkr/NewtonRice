@@ -37,7 +37,7 @@
 *.color15:      #908caa
 
 !! URxvt Appearance
-URxvt*font:                 xft:Fira Code Nerd Font:size=18,xft:Iosevka Nerd Font
+URxvt*font:                 xft:Fira Code Nerd Font:size=18,xft:Victor Mono
 
 
 
