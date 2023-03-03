@@ -2,6 +2,6 @@
 wallpaper
 fonts
 lightdm
-screenshots
+.github
 ^/README.*
 ^/LICENSE.*
