@@ -1,6 +1,13 @@
 # Newton
 Simple and efficient Linux Rice on BSPWM with modified Rose Pine Moon theme.
-insert images
+
+![1](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/1.png)
+![2](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/2.png)
+![3](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/3.png)
+![4](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/4.png)
+![5](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/5.png)
+![6](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/6.png)
+
 ## Applications
 
 |OS|[Arch](https://archlinux.org/)|
@@ -66,7 +73,7 @@ Rofi|Application Launcher
 
 I use [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) as my MPD client but you can use whatever client you want. Make sure to check out ```[module/music-player]``` section inside the ```modules.ini``` file.\
 I also use NetworkManager applet and Blueman-manager applets from the system tray since it is convenient compared to using the repective modules from polybar.\
-Theming for the gtk apps(eg: Pavucontrol, Popup Calendar, Powermenu, System Tray applications) used in polybar follows the Rose-Pine-Moon theme. Check out the [Theming]() section for more info.
+Theming for the gtk apps(eg: Pavucontrol, Popup Calendar, Powermenu, System Tray applications) used in polybar follows the Rose-Pine-Moon theme. Check out the [Theming](https://github.com/harishnkr/NewtonRice#theming) section for more info.
 
 
 * Copy the files from the Polybar folder to ```~/.config/polybar/``` directory.
@@ -77,15 +84,15 @@ Theming for the gtk apps(eg: Pavucontrol, Popup Calendar, Powermenu, System Tray
 
 #### Terminal
 
-Install Kitty terminal and/or URxvt. The config file for Kitty is in the ```Kitty``` directory. URxvt gets its configuration directly from the ```.Xresources``` file inside the ```X``` folder. URxvt also uses some perl extensions so check out [this](https://wiki.archlinux.org/title/rxvt-unicode#Perl_extensions) Arch Wiki section.
+Install Kitty terminal and/or URxvt. The config file for Kitty is in the ```Kitty``` directory. URxvt gets its configuration directly from the ```.Xresources``` file inside the ```X``` folder. URxvt also uses some perl extensions so check out [this](https://wiki.archlinux.org/title/rxvt-unicode#Perl_extensions) Arch Wiki section for more info.
 
 
 #### Theming
 
 The primarily used theme is the [Rose-Pine](https://github.com/rose-pine/rose-pine-theme) theme, Moon variant.
-Most application themes are directly provided in the configuration files. For GTK applications such as Thunar and Firefox, theming is done by copying the files from the ```GTK``` folder followed by:
+Most application themes are directly provided in the configuration files. For GTK applications such as Thunar and Firefox, theming is done by copying the files from the ```gtk``` folder followed by:
 
-* Placing the files in the .config directory in the ```~/.config/``` directory.
+* Placing the files in the .config directory in the ```~/.config``` directory.
 * Placing the rose-pine-moon-icons folder inside the ```~/.icons``` directory.
 * Placing the rose-pine-moon-gtk folder inside the ```~/.themes``` directory.
 
@@ -93,8 +100,9 @@ Use a GTK theming application such as LXAppearance to preview and apply the sett
 
 Install the [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor#how-to-get-it) theme followed by applying it using LXAppearance.
 
+
+
 talk about what all to change
 make changes
 license
 used custom yad for powermenu
-make sure links to gtk from polybar is coorect
