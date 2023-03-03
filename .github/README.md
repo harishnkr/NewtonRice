@@ -8,6 +8,7 @@ Simple and efficient Linux Rice on BSPWM with Rose Pine Moon theme.
 ![5](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/5.png)
 ![6](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/6.png)
 
+Check out the post [here](https://www.reddit.com/r/unixporn/comments/11hbhve/bspwm_newton_rice/)
 ## Applications
 
 |OS|[Arch](https://archlinux.org/)|
@@ -96,7 +97,7 @@ Most application themes are directly provided in the configuration files. For GT
 * Placing the rose-pine-moon-icons folder inside the ```~/.icons``` directory.
 * Placing the rose-pine-moon-gtk folder inside the ```~/.themes``` directory.
 
-Use a GTK theming application such as LXAppearance to preview and apply the settings
+Use a GTK theming application such as LXAppearance to preview and apply the settings.
 
 Install the [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor#how-to-get-it) theme followed by applying it using LXAppearance.
 
