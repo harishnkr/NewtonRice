@@ -105,8 +105,9 @@ Install the [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor#how-to-get-i
 
 :warning: Make sure you know what you are doing! Check out [this](https://wiki.archlinux.org/title/LightDM) for more information. The system may break if you do it wrong.
 
-Copy the files from the lightdm folder and copy it to ```/etc/lightdm``` folder. You may require sudo privileges to copy the files. 
+Copy the files from the lightdm folder and copy it to ```/etc/lightdm``` folder. You may require sudo privileges to copy the files.\
 
+Make sure that only one user is present in the system (excluding the root user), as the greeter is setup only for one person.
 
 
 ## Feedback
