@@ -8,7 +8,6 @@ Simple and efficient Linux Rice on BSPWM with Rose Pine Moon theme.
 ![5](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/5.png)
 ![6](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/6.png)
 
-Check out the post [here](https://www.reddit.com/r/unixporn/comments/11hbhve/bspwm_newton_rice/)
 ## Applications
 
 |OS|[Arch](https://archlinux.org/)|
