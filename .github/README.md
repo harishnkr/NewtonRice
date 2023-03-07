@@ -19,6 +19,7 @@ Simple and efficient Linux Rice on BSPWM with Rose Pine Moon theme.
 |Compositor| [Picom](https://github.com/yshui/picom)
 |Application Launcher| [Rofi](https://github.com/davatorium/rofi)|
 |Hotkey Daemon|[SXHKD](https://github.com/baskerville/sxhkd)|
+|Wallpaper Setter|[Feh](https://feh.finalrewind.org/)|
 |Display Manager|[LightDM](https://github.com/canonical/lightdm) ,with [Mini-Greeter](https://github.com/prikhi/lightdm-mini-greeter)|
 
 If you want the configuration files for other console applications that i use, head over to the [.dotfiles](https://github.com/harishnkr/dotfiles) repo. I like to decouple the desktopsetup from the command line applications.
@@ -61,6 +62,7 @@ Check the ```.stow-local-ignore``` file to see what all are ignored.
 * Copy the config files from the BSPWM folder and add it to ```~/.config/bspwm/``` directory.
 * Do the same for  SXHKD by adding the config file to ```~/.config/sxhkd/``` directory
 * Install Picom (the original package, not any other forks; since most of the features are now merged with the main fork), copy the config file from the ```Picom``` folder.
+* Make sure to make a wallpaper folder with the required wallpaper. Change the line with respect to feh in the bspwmrc in order to change the wallpaper.
 #### Polybar
 
 Make sure that these packages are installed along with the Polybar package:
