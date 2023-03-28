@@ -83,4 +83,5 @@ Xcursor.theme:Bibata-Original-Classic
 
 
 
-
+!!ST Terminal customization
+st.font: Fira Code Nerd Font:size=18

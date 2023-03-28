@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + n
-	kitty
+	st
 
 #neovim
 super + Return 
-	kitty -e nvim
+	st -e nvim
 
 # program launcher
 super + @space
