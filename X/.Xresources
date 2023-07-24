@@ -85,3 +85,5 @@ Xcursor.theme:Bibata-Original-Classic
 
 !!ST Terminal customization
 st.font: Fira Code Nerd Font:size=18
+! st.font: Victor Mono Nerd Font:size=18
+st.font2: Victor Mono Nerd Font:size=18

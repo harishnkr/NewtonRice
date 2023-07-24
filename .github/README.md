@@ -110,6 +110,9 @@ Copy the files from the lightdm folder and copy it to ```/etc/lightdm``` folder.
 
 Make sure that only one user is present in the system (excluding the root user), as the greeter is setup only for one person.
 
+## TODO
+-- Add battery notification popups
+
 
 ## Feedback
 

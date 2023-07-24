@@ -20,7 +20,7 @@ super + Escape
 
 #Firefox
 super + backslash
-	firefox-developer-edition
+	firefox
 
 #Thunar
 super + apostrophe
