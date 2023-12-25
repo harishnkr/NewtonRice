@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + n
-	st
+	wezterm
 
 #neovim
 super + Return 
-	st -e nvim
+	emacs
 
 # program launcher
 super + @space
