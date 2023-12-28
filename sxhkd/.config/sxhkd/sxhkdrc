@@ -148,11 +148,11 @@ super + {Left,Down,Up,Right}
 
 #Volume Control
 XF86AudioLowerVolume
-	amixer -D pulse set Master 5%-
+	pamixer --decrease 3
 XF86AudioRaiseVolume
-	amixer -D pulse set Master 5%+
+	pamixer --increase 3
 XF86AudioMute
-	amixer -D pulse set Master toggle    
+	pamixer --toggle-mute
 
 
 # brightness down
