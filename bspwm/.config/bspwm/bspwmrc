@@ -30,6 +30,9 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Emacs state=tiled
 
+bspc rule -a mpv state=floating
+bspc rule -a Sxiv state=floating
+
 # wmname LG3D   #for java applications
 xsetroot -cursor_name left_ptr #mouse
 mpc random on &
