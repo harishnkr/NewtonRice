@@ -63,5 +63,5 @@ fi
 # fi
 
 
-exec bspwm
+# exec bspwm
 #exec awesome

@@ -6,6 +6,10 @@
 super + n
 	wezterm
 
+# backup terminal emulator
+super + shift + n
+	st
+
 #neovim
 super + Return 
 	emacs

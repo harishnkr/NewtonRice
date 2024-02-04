@@ -1,40 +1,43 @@
+!Add custom theme instead of setting colours individually
+#include ".xcolors/rose-pine-moon"
+
 !! Colorscheme
 !! special
-*.foreground:   #e0def4
-*.background:   #232136
+*.foreground:   FOREGROUND_COLOR
+*.background:   BACKGROUND_COLOR
 *.cursorColor:  #6e6a86
 
 ! black
-*.color0:       #2a273f
-*.color8:       #393552
-
-! red
-*.color1:       #b4637a
-*.color9:       #eb6f92
-
-! yellow
-*.color2:       #ea9d34
-*.color10:      #f6c177
-
-! orange
-*.color3:       #ea9a97
-*.color11:      #ebbcba
-
-! green
-*.color4:       #31748f
-*.color12:      #3e8fb0
-
-! magenta
-*.color5:       #907aa9
-*.color13:      #c4a7e7
-
-! blue
-*.color6:       #56949f
-*.color14:      #9ccfd8
-
-! white
-*.color7:       #6e6a86
-*.color15:      #908caa
+**.color0: 	COLOR0       
+**.color8: 	COLOR8       
+ 
+!! red     	
+**.color1: 	COLOR1       
+**.color9: 	COLOR9       
+ 
+!! yellow  
+**.color2: 	COLOR2       
+**.color10:	COLOR10      
+ 
+!! orange  
+**.color3: 	COLOR3       
+**.color11:	COLOR11      
+ 
+!! green   	
+**.color4: 	COLOR4       
+**.color12:	COLOR12      
+ 
+!! magenta
+**.color5: 	COLOR5       
+**.color13:	COLOR13      
+ 
+!! blue    
+**.color6: 	COLOR6       
+**.color14:	COLOR14      
+ 
+!! white  
+**.color7: 	COLOR7       
+**.color15:	COLOR15      
 
 !! URxvt Appearance
 URxvt*font:                 xft:Fira Code Nerd Font:size=18,xft:Victor Mono

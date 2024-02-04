@@ -1,0 +1,20 @@
+#define FOREGROUND_COLOR #e0def4
+#define BACKGROUND_COLOR #232136
+
+
+#define COLOR0  #2a273f
+#define COLOR8  #393552
+#define COLOR1  #b4637a
+#define COLOR9  #eb6f92
+#define COLOR2  #ea9d34
+#define COLOR10 #f6c177
+#define COLOR3  #ea9a97
+#define COLOR11 #ebbcba
+#define COLOR4  #31748f
+#define COLOR12 #3e8fb0
+#define COLOR5  #907aa9
+#define COLOR13 #c4a7e7
+#define COLOR6  #56949f 
+#define COLOR14 #9ccfd8 
+#define COLOR7  #6e6a86
+#define COLOR15 #908caa
