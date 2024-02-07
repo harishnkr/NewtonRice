@@ -40,4 +40,5 @@ nm-applet &
 blueman-applet &
 feh --bg-scale wallpaper/newton.png &
 $HOME/.config/polybar/launch.sh &
-picom -f 
+picom -f &
+nvim --headless +q
