@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=oomox-rose-pine-moon
 Comment=Papirus icon theme
-Inherits=breeze,hicolor
+Inherits=rosepine,breeze,hicolor
 
 Example=folder
 
