@@ -11,8 +11,8 @@ super + shift + n
 	st
 
 #neovim
-super + Return 
-	emacs
+# super + Return 
+	# emacs
 
 # program launcher
 super + @space
