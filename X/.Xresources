@@ -82,9 +82,7 @@ URxvt.underlineURLs: true
 URxvt.urlButton: 1
 
 !!Cursor theme
-Xcursor.theme:Bibata-Original-Classic
-
-
+Xcursor.theme:rosepine
 
 !!ST Terminal customization
 st.font: Fira Code Nerd Font:size=18
