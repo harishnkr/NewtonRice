@@ -124,6 +124,10 @@ Make sure that only one user is present in the system (excluding the root user),
 
 Download `sddm` package, download and follow instructions for sddm rose-pine [theme](https://github.com/lwndhrst/sddm-rose-pine). Copy the theme.config and replace the default theme.config along with the prism wallpaper into `/usr/share/sddm/themes/sddm-rose-pine` 
 
+#### Batsignal
+
+Stow the batsignal files for battery notifications
+
 ## TODO
 -- Add battery notification popups (done)
 
