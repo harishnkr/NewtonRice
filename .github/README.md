@@ -8,7 +8,15 @@ Simple and efficient Linux Rice on BSPWM with Rose Pine Moon theme.
 ![5](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/5.png)
 ![6](https://github.com/harishnkr/NewtonRice/blob/main/.github/assets/6.png)
 
+## ChangeLog
+
++ Changed from Lightdm to Sddm (to support Wayland)
++ Use personal fork of st as main terminal and wezterm as backup terminal
++ Changed icons from Bibata cursors to RosePine Cursors (No need to manually download from pacman)
++ Use batsignal for battery notification
+
 ## Applications
+
 
 |OS|[Arch](https://archlinux.org/)|
 |---|---|
@@ -104,14 +112,20 @@ Install the [Bibata Cursor](https://github.com/ful1e5/Bibata_Cursor#how-to-get-i
 
 #### Login Manager
 
+##### LightDM
+
 :warning: Make sure you know what you are doing! Check out [this](https://wiki.archlinux.org/title/LightDM) for more information. The system may break if you do it wrong.
 
 Copy the files from the lightdm folder and copy it to ```/etc/lightdm``` folder. You may require sudo privileges to copy the files.\
 
 Make sure that only one user is present in the system (excluding the root user), as the greeter is setup only for one person.
 
+##### SDDM
+
+Download `sddm` package, download and follow instructions for sddm rose-pine [theme](https://github.com/lwndhrst/sddm-rose-pine). Copy the theme.config and replace the default theme.config along with the prism wallpaper into `/usr/share/sddm/themes/sddm-rose-pine` 
+
 ## TODO
--- Add battery notification popups
+-- Add battery notification popups (done)
 
 
 ## Feedback
