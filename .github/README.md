@@ -13,7 +13,9 @@ Simple and efficient Linux Rice on BSPWM with Rose Pine Moon theme.
 + Changed from Lightdm to Sddm (to support Wayland)
 + Use personal fork of st as main terminal and wezterm as backup terminal
 + Changed icons from Bibata cursors to RosePine Cursors (No need to manually download from pacman)
++ changed ncmcpp to mpdevil for opening cmp client through polybar
 + Use batsignal for battery notification
++ Changed polybar to simple top only bar
 
 ## Applications
 
@@ -73,6 +75,8 @@ Check the ```.stow-local-ignore``` file to see what all are ignored.
 * Make sure to make a wallpaper folder with the required wallpaper. Change the line with respect to feh in the bspwmrc in order to change the wallpaper.
 #### Polybar
 
+If you use the simple bar, you can avoid using yad and yad powermenu.
+
 Make sure that these packages are installed along with the Polybar package:
 Package|Usage
 |---|---|
@@ -81,7 +85,7 @@ Rofi|Application Launcher
 [Mpd](https://www.musicpd.org/)| Music bar
 [Yad](https://github.com/v1cont/yad)|Popup calendar and Powermenu
 
-I use [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) as my MPD client but you can use whatever client you want. Make sure to check out ```[module/music-player]``` section inside the ```modules.ini``` file.\
+I use [plattenalbum](https://github.com/SoongNoonien/plattenalbum) (earlier I used [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)) as my MPD client but you can use whatever client you want. Make sure to check out ```[module/music-player]``` section inside the ```modules.ini``` file.\
 I also use NetworkManager applet and Blueman-manager applets from the system tray since it is convenient compared to using the repective modules from polybar.\
 Theming for the gtk apps(eg: Pavucontrol, Popup Calendar, Powermenu, System Tray applications) used in polybar follows the Rose-Pine-Moon theme. Check out the [Theming](https://github.com/harishnkr/NewtonRice#theming) section for more info.
 
