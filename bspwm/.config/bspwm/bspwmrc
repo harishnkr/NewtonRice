@@ -39,6 +39,6 @@ mpc random on &
 nm-applet &
 blueman-applet &
 feh --bg-scale wallpaper/newton.png &
-$HOME/.config/polybar/simple.sh &
+~/.config/polybar/simple.sh &
 picom -f &
 nvim --headless +q 
