@@ -38,7 +38,11 @@ xsetroot -cursor_name left_ptr #mouse
 mpc random on &
 nm-applet &
 blueman-applet &
-feh --bg-scale wallpaper/newton.png &
+# feh --bg-scale wallpaper/newton.png &
+
+feh --bg-scale ~/wallpaper/pexels-eberhardgross-640781.jpg
+
 ~/.config/polybar/simple.sh &
 picom -f &
+xss-lock -- betterlockscreen -l &
 nvim --headless +q 
