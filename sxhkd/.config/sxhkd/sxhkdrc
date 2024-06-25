@@ -56,7 +56,7 @@ super + Print
 
 #lockscreen with lightdm
 super + alt + shift + q
-	dm-tool lock
+	betterlockscreen -l
 
 # bspwm hotkeys
 #
