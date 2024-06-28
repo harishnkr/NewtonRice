@@ -20,7 +20,7 @@ super + alt + grave
 
 # program launcher
 super + d
-	rofi -modes "drun,run,window,rofimoji:rofimoji" -show drun
+	rofi -modes "run,drun,window,rofimoji:rofimoji" -show run
 
 # rofi calculator
 super + alt + c
