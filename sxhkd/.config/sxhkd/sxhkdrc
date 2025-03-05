@@ -41,13 +41,18 @@ super + Escape
 #Firefox
 super + z
 	firefox
+	librewolf
 #qutebrowser
 super + shift + z
-	qutebrowser
+	firefox
 
 #Thunar
 super + x
 	thunar
+
+#Emacs
+super + e
+	emacs
 
 #Screenshot to clipboard
 super + Print
