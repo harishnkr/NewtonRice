@@ -18,8 +18,12 @@ super + shift + p
 super + alt + grave
 	dunstctl history-pop
 
-# program launcher
+# program launcher, also link to menu shortcut(new Keyboard shortcut)
 super + d
+	rofi -modes "run,drun,window,rofimoji:rofimoji" -show run
+
+
+Menu
 	rofi -modes "run,drun,window,rofimoji:rofimoji" -show run
 
 # rofi calculator
