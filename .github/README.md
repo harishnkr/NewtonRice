@@ -53,7 +53,7 @@ You can use your own fonts by editing the respective config files.
 
 For those who know how everything works, you can install majority of the files by: 
 
-* a) Installing the relevant packeges and the respective dependencies, including [GNU Stow](https://www.gnu.org/software/stow/) for sourcing symlinks.
+* a) Installing the relevant packages and the respective dependencies, including [GNU Stow](https://www.gnu.org/software/stow/) for sourcing symlinks.
 *  b) Cloning the repo into your ```~``` directory, followed by
 * c) Using GNU Stow and to create symlinks for each of the packages. For example, to copy the files from ```X``` folder to the home folder, run ```stow X```.
 * d) GTK theming must be stowed followed by using [LXAppearance](https://github.com/lxde/lxappearance) to apply it uniformly
