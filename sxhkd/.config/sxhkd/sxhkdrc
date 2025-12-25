@@ -64,7 +64,7 @@ super + Print
 
 
 #lockscreen with lightdm
-super + alt + shift + q
+super + alt + q
 	betterlockscreen -l
 
 # bspwm hotkeys
@@ -75,9 +75,14 @@ super + shift + space
 	bspc config top_padding 0; \
 	bspc config bottom_padding 0; ,\
          polybar-msg cmd toggle; }
-# quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
+
+# quit bspwm
+super + m
+	bspc quit
+
+# restart bspwm
+super + alt + r
+	bspc wm -r
 
 # close and kill
 super + {_,shift + }w
@@ -202,6 +207,15 @@ XF86AudioLowerVolume
 XF86AudioRaiseVolume
 	pamixer --increase 3
 XF86AudioMute
+	pamixer --toggle-mute
+
+
+#Volume Control funtion keys
+KEY_VOLUMEDOWN
+	pamixer --decrease 3
+KEY_VOLUMEUP
+	pamixer --increase 3
+KEY_MUTE
 	pamixer --toggle-mute
 
 
